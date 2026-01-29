@@ -7,8 +7,8 @@ class Players:
         AGE = "//div[@class='playerInfoRow playerAge']//span[@itemprop='text']/text()"
         NATIONALITY = "//div[@class='playerRealname']//img/@alt"
         RATING = "//div[@class='player-stat']//span[@class='statsVal']//p/text()"
-        CURRENT_TEAM = "//div[@class='playerInfoRow playerTeam']//span[@itemprop='text']//a/text()"
-        CURRENT_TEAM_URL = "//div[@class= 'playerInfoRow playerTeam']//a/@href"
+        CURRENT_TEAM = "//div[@class='playerInfoRow playerTeam']//span[@class='listRight text-ellipsis']//span[@itemprop='text']//a/text()"
+        CURRENT_TEAM_URL = "//div[@class='playerInfoRow playerTeam']//span[@class='listRight text-ellipsis']//a/@href"
         IMAGE_URL = "//img[@class = 'bodyshot-img']/@src"
         SOCIAL_MEDIA = "//div[@class = 'socialMediaButtons']//a/@href"
 
